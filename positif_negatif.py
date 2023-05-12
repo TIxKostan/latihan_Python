@@ -1,4 +1,4 @@
-def posifit_negatif(n):
+def positif_negatif(n):
     if n > 0:
         print(f'{n} adalah bilangan positif')
     elif n < 0:
@@ -8,4 +8,4 @@ def posifit_negatif(n):
     
 Bilangan = int(input('Masukkan sebuah bilangan: '))
 
-print(posifit_negatif(Bilangan))
+print(positif_negatif(Bilangan))
